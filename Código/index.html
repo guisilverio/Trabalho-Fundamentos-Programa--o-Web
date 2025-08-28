@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio pessoal (CV online)</title>
+ 
+  <link rel="stylesheet" href="index.css"> <!-- Linha que serve para importar o CSS -->
+</head>
+<body>
+
+  <!-- Menu fixado -->
+  <nav>
+    <ul>
+      <li><a onclick="conteudo('inicio')">Início</a></li>
+      <li><a onclick="conteudo('sobre mim')">Sobre mim</a></li>
+      <li><a onclick="conteudo('formação')">Formação</a></li>
+      <li><a onclick="conteudo('portfolio')">Portfólio</a></li>
+      <li><a onclick="conteudo('contato')">Contato</a></li>
+    </ul>
+  </nav>
+
+ 
+  <div id="inicio" class="content active">
+    <h2>Seja bem-vindo!</h2>
+    <p>
+      Este é um projeto de um site simples onde vou contar um pouco sobre mim, meus interesses, formação acadêmica, profissional e meu portfólio. <br> Fique a vontade para entrar em contato caso queira! 
+    </p>
+  </div>
+
+  <div id="sobre mim" class="content">
+    <h2>Me conhecendo um pouco</h2>
+    <p>Olá, meu nome é Guilherme Silvério, tenho 23 anos e moro em São Matheus na cidade de São Paulo.
+Gosto de passar o tempo livre com uma boa leitura, assistindo séries e jogando video-game, os principais gêneros preferidos que engloba esses três é de fantasia e ficção ciêntífica.
+Hoje em dia a leitura é uma das atividades que eu mais gosto, é uma forma de conhecer um mundo novo com leis, conceitos, pessoas, culturas, sociedades e mais, muitas vezes completamente inovadores e cheios de criatividade onde os autores conseguem nos prender durante horas olhando para um pedaço de papel e te fazer arrepiar, chorar, sentir medo, rir, irritado, frustado e passar por todos os sentimentos e emoções possíveis.
+Por isso é minha atividade favorita, é de se admirar todos os escritores e escritoras que trazem histórias tão ricas e complexas por pura paixão e imaginação através de palavras.</p>
+  </div>
+
+  <div id="formação" class="content">
+    <h2>Um pouco da minha trajetória</h2>
+    <p> Em 2018 conclui o ensino médio junto ao técnico em logistica na Etec Jaraguá <br>
+      Em 2019 início o curso superior em tecnologia em logística na Unip, mas não conclui o curso. <br>
+      E atualmente, em 2025 iniciei a graduação em Análise e Desenvolvimento de Sitemas na Uninter, e estou fazendo alguns cursos extras, um em Python e outro em SQL básico. <br>
+      No momento estou em transição de carreira para a área de tecnologia, antes disso, atuei por quase 5 anos na área de logística onde atuava como auxilar operacional, responsável em dar assistência ao SAC, gestão de frete, e outras tarefas administrativas. <br>
+      Estou em busca da minha primeira oportunidade na área da tecnologia para aplicar meus conhecimentos e seguir aprendendo na prática. Tenho muita vontade de crescer na área de TI e estou aberto a novos desafios.
+</p>
+  </div>
+
+  <div id="portfolio" class="content">
+    <h2>Fique de olho!</h2>
+    <p>Ainda estou começando na área de tecnologia, então não tenho grandes projetos para mostrar,mas estou aprendendo bastante e experimentando coisas novas todos os dias! <br>
+
+Estou estudando principalmente com Python e SQL, testando ideias, fazendo pequenos códigos e aprendendo na prática. <br>
+
+Logo logo espero ter alguns projetos para mostrar por aqui, mas por enquanto, esse espaço é só um pedacinho da minha evolução e das minhas ideias.</p>
+  </div>
+
+    <div id="contato" class="content">
+    <h2>Fique a vontade para entrar em contato!</h2>
+
+    <form action="" method="post">
+  
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+  <br><br>
+
+ 
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+  <br><br>
+
+
+  <label for="mensagem">Mensagem:</label><br>
+  <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+  <br><br>
+
+
+  <button type="submit">Enviar</button>
+</form>
+
+  </div>
+
+   <!-- Linha para importar o JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>
